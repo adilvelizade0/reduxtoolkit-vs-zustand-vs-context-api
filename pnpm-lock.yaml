@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@reduxjs/toolkit': ^1.8.5
+  bootstrap: ^5.2.0
   eslint: 8.23.0
   eslint-config-next: 12.2.5
   next: 12.2.5
@@ -12,6 +13,7 @@ specifiers:
 
 dependencies:
   '@reduxjs/toolkit': 1.8.5_kkwg4cbsojnjnupd3btipussee
+  bootstrap: 5.2.0
   next: 12.2.5_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -446,6 +448,12 @@ packages:
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
     dev: true
+
+  /bootstrap/5.2.0:
+    resolution: {integrity: sha512-qlnS9GL6YZE6Wnef46GxGv1UpGGzAwO0aPL1yOjzDIJpeApeMvqV24iL+pjr2kU4dduoBA9fINKWKgMToobx9A==}
+    peerDependencies:
+      '@popperjs/core': ^2.11.5
+    dev: false
 
   /brace-expansion/1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
